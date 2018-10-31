@@ -10,16 +10,10 @@
   <title>Aaron Heath | Full Stack Web Developer</title>
 
   <style>
-    .font-title {
-      font-family: 'News Cycle', sans-serif;
-    }
-
-    .font-body {
-      font-family: 'Lato', sans-serif;
-    }
+    .font-title {font-family: 'News Cycle', sans-serif}
+    .font-body {font-family: 'Lato', sans-serif}
   </style>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140464-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -28,47 +22,57 @@
     gtag('config', 'UA-140464-1');
   </script>
 </head>
-<body class="">
 
-<div class="p-2 min-h-screen flex flex-col">
-  <div class="bg-grey-lightest flex-grow flex-shrink">
-    <div class="lg:w-3/5 m-auto p-8" >
-      <div class="mb-8">
-        <img
-          class="rounded-full h-32 w-32 flex items-center justify-center border border-solid border-grey-light"
-          src="/me.jpg">
-      </div>
+<body itemscope itemtype="http://schema.org/Person">
+  <div class="p-2 min-h-screen flex flex-col">
+    <div class="bg-grey-lightest flex-grow flex-shrink">
+      <div class="lg:w-3/5 m-auto p-8" >
+        <div class="mb-8">
+          <img
+            class="rounded-full h-32 w-32 flex items-center justify-center border border-solid border-grey-light"
+            src="/me.jpg"
+            alt="Headshot of Aaron Heath">
+        </div>
 
-      <div class="mb-8">
-        <p class="font-title text-grey-darker inline-block text-2xl pb-2 font-semibold border-b border-solid border-grey-light">
-          Hi, I'm Aaron Heath!
-          <span class="inline-block w-4"></span>
-        </p>
-      </div>
+        <header class="mb-8">
+          <h1 class="font-title text-grey-darker inline-block text-2xl pb-2 font-semibold border-b border-solid border-grey-light">
+            Hi, I'm Aaron Heath!
+            <span class="inline-block w-4"></span>
+          </h1>
+        </header>
 
-      <div class="font-body">
-        <p class="mb-6 leading-normal">
-          Based in
-          <a class="text-blue hover:text-blue-darker" href="https://www.google.com.au/maps/place/Adelaide+SA/">Adelaide</a>,
-          I'm a Full Stack Web Developer at the Australian ISP,
-          <a class="text-blue hover:text-blue-darker" href="https://www.superloop.com/">Superloop</a>. There I
-          primarily focus on our NBN B2B solution. I specialise in web application development using AngularJS,
-          Angular 2+ and Vue.js along with Laravel (php), Node.js backends.</p>
+        <main class="font-body">
+          <p class="mb-6 leading-normal">
+            Based in
+            <a class="text-blue hover:text-blue-darker" href="https://www.google.com.au/maps/place/Adelaide+SA/">Adelaide</a>,
+            I'm a Full Stack Web Developer at the Australian ISP,
+            <a class="text-blue hover:text-blue-darker" href="https://www.superloop.com/">Superloop</a>. There I
+            primarily focus on our NBN B2B solution. I specialise in web application development using AngularJS,
+            Angular 2+ and Vue.js along with Laravel (php), Node.js backends.</p>
 
-        <p class="mb-6 leading-normal">Outside of development I love spending time running, working on my house, and
-          watching
-          <a class="text-blue hover:text-blue-darker" href="http://www.essendonfc.com.au/">Essendon</a>,
-          the <a class="text-blue hover:text-blue-darker" href="https://www.mlb.com/angels">Angels</a>
-          and F1.</p>
+          <p class="mb-6 leading-normal">Outside of development I love spending time running, working on my house, and
+            watching
+            <a class="text-blue hover:text-blue-darker" href="http://www.essendonfc.com.au/">Essendon</a>,
+            the <a class="text-blue hover:text-blue-darker" href="https://www.mlb.com/angels">Angels</a>
+            and F1.</p>
 
-        <p class="mb-6 leading-normal">I can be contacted via email at
-          <a class="text-blue hover:text-blue-darker" href="mailto:aaron@aaronheath.com">aaron@aaronheath.com</a>,
-          <a class="text-blue hover:text-blue-darker" href="https://www.linkedin.com/in/aaronheathau/">LinkedIn</a>
-          or
-          <a class="text-blue hover:text-blue-darker" href="https://twitter.com/bomberaza">Twitter</a>.</p>
+          <p class="mb-6 leading-normal">More detailed information about me and what I've done is available on my
+            <a class="text-blue hover:text-blue-darker" href="https://www.linkedin.com/in/aaronheathau/">LinkedIn</a>
+            profile. You can also follow me on
+            <a class="text-blue hover:text-blue-darker" href="https://twitter.com/bomberaza">Twitter</a>
+            or email me at
+            <a class="text-blue hover:text-blue-darker" href="mailto:aaron@aaronheath.com">aaron@aaronheath.com</a>.
+          </p>
+        </main>
       </div>
     </div>
   </div>
-</div>
+
+  <meta itemprop="name" content="Aaron Heath"/>
+  <meta itemprop="jobTitle" content="Full Stack Web Developer"/>
+  <meta itemprop="email" content="aaron@aaronheath.com"/>
+  <meta itemprop="sameAs" content="https://aaronheath.com"/>
+  <meta itemprop="homeLocation" content="Adelaide, South Australia"/>
+  <meta itemprop="image" content="https://aaronheath.com/me.jpg"/>
 </body>
 </html>
